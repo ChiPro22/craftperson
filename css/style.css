@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+header{
+    height: 95vh;
+    width: 100%;
+    background-color: #262626;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.navbar .logo{
+    font-size: 3rem;
+    float:left;
+    color:#fffdf9;
+}
+.navbar .nav-items{
+    font-size: 2rem;
+    float: right;
+}
+.navbar .nav-items .nav-item{
+    display: inline-block;
+    margin: 2.5rem 2.5rem 2rem ;
+    list-style: none;
+}
+.navbar .nav-items .nav-item a:hover{
+    color:rgb(226, 87, 42);
+    text-decoration: underline solid #e2572a;
+}
+.navbar .nav-items .nav-item a{
+    color:#fffdf9;
+    text-decoration: none;
+}
+.navbar::after{
+    content: '';
+    display: block;
+   clear: both;
+}
+.navbar{
+    /* border: 2px solid red; */
+}
+.navbar::after{
+    content: '';
+    display: block;
+    width: 100%;
+    border: 1.5px solid #fffdf9;
+}
+.hollow{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 9.6rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    font-family: sans-serif;
+}
+.light-text{
+    font-size: 1.5rem;
+    color: #767171;
+}
+.md-heading{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.lg-heading{
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.filled
+{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 9.6rem;
+}
+.text-white{
+    color: rgb(255, 253, 249);
+}
+.text-black{
+    color:#262626;
+}
+.text-red{
+    color: #e2572a;
+}
+.hero{
+    position: absolute;
+    top: 30%;
+}
+.hero-img{
+    background:url('../images/chamber-36-EfvPdXE0KQo-unsplash2.jpg');
+    width: 390px;
+    height:85vh;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+    left: 64%;
+}
+/* ##################intro################## */
+.intro{
+    height: 120vh;
+    background: #262626;
+    padding-top: 7rem;
+    position: relative;
+}
+.intro .intro-heading{
+    position: absolute;
+    left: 25%;
+}
+.intro .intro-img{
+    height: 75vh;
+    width: 39rem;
+    background: url('../images/WhatsApp\ Image\ 2023-06-15\ at\ 00.26.58.jpeg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 5rem;
+    position: absolute;
+    top: 25%;
+}
+.intro .intro-para{
+    height: auto;
+    width: 70rem;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+.intro .intro-para h3::after{
+    content: '';
+    display: block;
+    width: 100%;
+    border: 1.5px solid #e2572a;
+}
+.intro-para .para-num span{
+    float: left;
+    margin:0px 15rem 0px 0px;
+}
+/* ######################work####################### */
+.working{
+    height: 110vh;
+    background: #262626;
+    position: relative;
+}
+.work .work-heading{
+    padding-top: 7rem;
+}
+.img1{
+    background: url("../images/Scan\ 12\ Apr\ 23\ 08·26·22\ \(1\)_page-0002.jpg");
+    width: 40rem;
+    height: 80vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 60%;
+}
+.img2{
+    background: url('../images/Scan\ 12\ Apr\ 23\ 08·26·22\ \(1\)_page-0005.jpg');
+    width: 30rem;
+    height: 80vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.img3{
+      background: url('../images/img3.jpg');
+    width: 30rem;
+    height: 40vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 30%;
+    margin-left: 8rem;
+}
+.img4{
+    background: url('../images/img4.jpg');
+    width: 30rem;
+    height: 35vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 65%;
+    left: 35.5%;
+}
+
+/* ######################idea###################### */
+.idea{
+    background: #262626;
+    height: 170vh;
+    padding-top: 10rem;
+}
+.idea .idea-heading ::after{
+    content: '';
+    display: block;
+    width: 100%;
+    /* border: 2px solid #e2572a; */
+
+}
+.box{
+    width: 90%;
+    height: 50vh;
+    
+    /* border: 2px solid red; */
+    margin-top: 8rem;
+}
+.text-box{
+    width: 60%;
+    height: 50vh;
+    /* float: left; */
+    /* border: 2px solid blue; */
+    /* text-align: center; */
+    padding: 3rem;
+}
+.img-box{
+    width: 40%;
+    height: 50vh;
+    float: right;
+    /* border: 2px solid green; */
+    /* border: 4px solid #e2572a; */
+}
+.box::after{
+    contain:'';
+    display: block;
+    clear: both;
+}
+.box1 .img-box{
+    float: right;
+    background: url('../images/img5.jpg');
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.box2 .img-box{
+    float: left;
+    background: url('../images/img6.jpg');
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.box1 .text-box{
+    float: left;
+}
+.box2 .text-box{
+    float:right;
+}
+.text-box h3{
+    /* text-decoration: underline 1.5px solid #e2572a; */
+    border-bottom: 2px solid #e2572a;
+    display: inline;
+}
+/* ###############footer################ */
+footer{
+    height: 5vh;
+    background: black;
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 8px;
+}
+
+/* ##################contact page########### */
+.navb{
+    background-color: #262626;
+    
+}
+.contact{
+    background-color: #262626;
+    height:150vh;
+    position: relative;
+}
+.block{
+    position: absolute;
+    width: 60%;
+    height: 70vh;
+    background: #d2cccc;
+    margin: auto;
+    top: 5%;
+    left: 20%;
+    /* box-shadow: 10px 10px 20px 0px #e2572a; */
+}
+.wrapper{
+    /* border: 2px solid red; */
+    text-align: center;
+    
+}
+.left-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper h3,.wrapper i{
+    display:block;
+}
